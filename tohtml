@@ -1,0 +1,7 @@
+#!/bin/bash
+
+asciidoctor -a linkcss -s README.adoc
+
+
+cd ../promotions
+asciidoctor -a linkcss -s README.adoc
